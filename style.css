@@ -1,0 +1,399 @@
+:root /*Variáveis uniservais*/ {
+    --background-pb: rgb(86, 86, 88);
+    --textForBackground-nav: #f4e9d8;
+    --background-ice: #ddd9ce;
+    --textForLinkHover: #8B0000;
+}
+
+body {
+    background: var(--background-ice);
+}
+
+
+/* ======================================================================================= */
+/*                                  Index.html                                             */
+/* ======================================================================================= */
+
+/* ============= */
+/*     Header    */
+/* ============= */
+
+
+.bootstrapMenuNav {
+    background: var(--background-pb);
+
+    padding: 1%;
+
+    width: 100%;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.bootstrapMenuNav ul {
+    justify-content: center;
+}
+
+.bootstrapMenuNav a {
+    text-decoration: none;
+    color: var(--textForBackground-nav);
+    font-size: x-large;
+}
+
+/* ============= */
+/*     Header    */
+/* ============= */
+
+.separacao {
+
+    padding: 5dvh;
+}
+
+.container-fluid {
+    
+    padding: 25px;
+    
+    text-align: center;
+}
+
+.container-fluid p {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* ================ */
+/*     Sobre Mim    */
+/* ================ */
+
+.sobreMim {
+    padding: 25px;
+}
+
+.figure img {
+    justify-content: first baseline;
+
+    border: 3px solid #000;
+}
+
+.p-3 p {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ================ */
+/*     Sobre Mim    */
+/* ================ */
+
+/* ========================= */
+/*     Formação Acadêmica    */
+/* ========================= */
+
+.formacoesAcademicas {
+    background: var(--background-pb);
+    color: var(--textForBackground-nav);
+
+}
+
+#pFormAcad {
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+
+    word-spacing: 2px;
+}
+
+/* ========================= */
+/*       Ensino Básico       */
+/* ========================= */
+
+#ensinoBasico {
+    padding: 12px;
+}
+
+#ensinoBasico h1 {
+    padding: 5px;
+}
+#ensinoBasico img {
+    height: 50dvh;
+    width: auto;
+}
+
+#ensinoBasico h4 {
+    text-align: center;
+}
+
+/* ========================= */
+/*       Ensino Básico       */
+/* ========================= */
+
+/* ========================= */
+/*      Ensino Técnico       */
+/* ========================= */
+
+#ensinoTecnico {
+    padding: 12px;
+}
+
+#ensinoTecnico h1 {
+    padding: 5px;
+}
+#ensinoTecnico img {
+    height: 50dvh;
+    width: auto;
+}
+
+#ensinoTecnico h4 {
+    text-align: center;
+}
+
+/* ========================= */
+/*      Ensino Técnico       */
+/* ========================= */
+
+/* ========================= */
+/*     Formação Acadêmica    */
+/* ========================= */
+
+/* ========================= */
+/*       Certificações       */
+/* ========================= */
+
+.certificacoes {
+    margin: 3dvh;
+}
+
+/* =============================== */
+/*       Certificações Cisco       */
+/* =============================== */
+
+#certificacoesCisco h1 {
+    padding: 30px;
+
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#certificacoesCisco img {
+    border-radius: 100%;
+
+    justify-content: left;
+
+    height: 15dvh;
+    width: auto;
+}
+
+#colCisco {
+    display: flex;
+
+    align-items: center;
+
+    padding-top: 2dvh;
+}
+
+#colCisco p {
+    padding-left: 4dvh;
+
+    font-family: "Montserrat", sans-serif; 
+}
+
+#colCisco a {
+    text-decoration: none;
+
+    color: var(--background-pb);
+}
+
+#modalButtonCisco {
+    border: var(--background-pb);
+    background: var(--background-pb);
+
+    color: var(--background-ice);
+}
+
+#certificacoesModal img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+#colCisco a:hover {
+    color: var(--textForLinkHover);
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/* =============================== */
+/*       Certificações Cisco       */
+/* =============================== */
+
+/* =============================== */
+/*      Certificações Gerais       */
+/* =============================== */
+
+#certificacoesGerais {
+    text-align: center;
+
+    padding-top: 3dvh;
+}
+
+#certificacoesGerais h1 {
+    padding: 10px;
+}
+
+#certificacoesGerais h4 {
+    padding: 10px;
+
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#certificacoesGerais img {
+    text-align: center;
+
+    height: 15dvh;
+    width: auto;
+}
+
+#modalButtonCertificadosGerais {
+    border: var(--background-pb);
+    background: var(--background-pb);
+
+    color: var(--background-ice);
+
+    width: 20dvh;
+    height: 10dvh;
+}
+
+#imgsCertificadosGerais img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+#alinharCertificacaoSenac {
+    text-align: left;
+
+    word-spacing: 1px;
+}
+
+/* =============================== */
+/*      Certificações Gerais       */
+/* =============================== */
+
+/* ========================= */
+/*       Certificações       */
+/* ========================= */
+
+/* ========================= */
+/*        Portifólio         */
+/* ========================= */
+
+#portifolio {
+    background: var(--background-pb);
+
+    padding-top: 3dvh;
+    padding-bottom: 10dvh;
+}
+
+#portifolio h1 {
+    color: var(--background-ice);
+
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+    padding: 6dvh;
+}
+
+.card {
+    background: var(--background-ice);
+}
+
+.card a {
+    border: var(--background-pb);
+    background: var(--background-pb);
+
+    color: var(--background-ice);
+
+    width: 20dvh;
+    height: 5dvh;
+}
+
+.card a:hover {
+    background: var(--background-pb);
+
+    color: var(--textForLinkHover);
+}
+
+/* ========================= */
+/*        Portifólio         */
+/* ========================= */
+
+/* ==================== */
+/*        Footer        */
+/* ==================== */
+
+/* =============== */
+/*     Contato     */
+/* =============== */
+
+.contato {
+    text-align: center;
+
+    margin: 25px;
+}
+
+.contato img {
+    width: 75px;
+    height: auto;
+
+    margin: 0 12px;
+ 
+    cursor: pointer;
+}
+
+.contato h4 {
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+    padding-top: 3dvh;
+}
+
+/* =============== */
+/*     Contato     */
+/* =============== */
+
+/* ==================== */
+/*        Footer        */
+/* ==================== */
+
+
+@media screen and (max-width: 429px) {
+    .separacao {
+
+    padding: 10dvh;
+}
+}
+
+@media screen and (max-width: 540px) {
+    .p-3 p {
+    font-size: 13px;
+}
+
+#ensinoBasico img {
+    height: auto;
+    width: auto;
+}
+#ensinoTecnico img {
+    height: auto;
+    width: auto;
+}
+}
+
+/* ======================================================================================= */
+/*                                  Index.html                                             */
+/* ======================================================================================= */
