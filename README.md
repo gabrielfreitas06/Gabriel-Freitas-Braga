@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.licdn.com/dms/image/v2/D4D03AQHNERU0jfgp2Q/profile-displayphoto-scale_400_400/B4DZf2wA8.G8Ag-/0/1752191472981?e=1785369600&v=beta&t=I7-k77CfeHwTsLVXZ3dkrYbHQuItO6FOQzY6jcRy3DA" alt="Minha imagem" width="128">
+<img src="imgs/gabrielfreitasbraga.jpg" width="128">
 <h1>Meu Site</h1>
 <p>Site feito com o objetivo de criar um portfólio próprio e me divulgar.<br>
 <strong>Conteúdos do site a seguir:</strong><br></p>
@@ -51,7 +51,7 @@
 </div>
 
 <div align="center">
-<img src="https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1785369600&v=beta&t=UXTTs38oralH_jiBdyJGlqB14su66jfndLmfUTaB-vg" alt="Logo Cisco" width="1024">
+<img src="[https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1785369600&v=beta&t=UXTTs38oralH_jiBdyJGlqB14su66jfndLmfUTaB-vg](https://github.com/gabrielfreitas06/Gabriel-Freitas-Braga/edit/main/README.md)" alt="Logo Cisco" width="1024">
 </div>
 <h1>
 <br>Network Defense;<br>
